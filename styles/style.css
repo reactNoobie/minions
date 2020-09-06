@@ -57,8 +57,8 @@ html {
 .container {
     display: grid;
     grid-template-columns: repeat(4, 23vw);
-    grid-auto-rows: 18vh;
-    gap: calc(10vh / 4) calc(8vw / 3);
+    grid-auto-rows: 23vw;
+    gap: calc(8vw / 3) calc(8vw / 3);
 }
 
 .minion {
