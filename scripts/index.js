@@ -2,8 +2,8 @@ const NUMBER_OF_COLUMNS = 4;
 const NUMBER_OF_ROWS = 5;
 const NUMBER_OF_MINIONS = NUMBER_OF_ROWS * NUMBER_OF_COLUMNS;
 
-const INTERVAL_DURATION_MIN = 1000;
-const INTERVAL_DURATION_MAX = 3000;
+const INTERVAL_DURATION_MIN = 500;
+const INTERVAL_DURATION_MAX = 1000;
 
 const getRandom = (max, min) => Math.floor(Math.random() * (min - max + 1)) + max;
 
