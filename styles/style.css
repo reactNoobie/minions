@@ -34,7 +34,7 @@ html {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    border: 4px double darkslateblue;
+    border: 10px double darkslateblue;
     background-color: gold;
     animation: score 5s ease-in-out infinite alternate;
 }
@@ -67,6 +67,7 @@ html {
 .minion {
     transition: opacity 2s ease-in;
     animation: minion ease-in-out infinite alternate;
+    border-radius: 50px;
     color: white;
     font-size: 200%;
     font-weight: bold;
